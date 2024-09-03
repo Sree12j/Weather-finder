@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.container video{
+position: fixed;
+}
+.weather{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to bottom right,rgba(255,255,255,0),rgba(255,255,255,0.8));
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+flex-direction: column;
+}
+.input-bar {
+    display: flex;
+}
+.input-bar input{
+    padding: 6px;
+    width: 80%;
+    padding-right: 160px;
+    border-radius: 5px;
+   border: none;
+   text-align: center;
+}
+.input-bar img{
+    margin-left: 30px;
+}
+.content {
+    color: rgb(1, 1, 6);
+    margin-top: 6px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-bar button {
+    padding:10px;
+    background-color: transparent;
+    border: none;
+}
+.input-bar button img{
+   width: 30%;
+}
+.detail{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+ 
+}
+.detail .humadity{
+   align-items: end;
+  
+  
+}
+.humadity img, .winds img{
+width: 50px;
+}
+
+.detail .winds{
+   margin-left: 180px;
+}
+
